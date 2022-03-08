@@ -1,0 +1,43 @@
+1) Write a program to print sum of first n even numbers using while loop
+
+public static void main(String s[]){
+        int n=3;
+        int sum=0;
+        while(n!=0){
+            sum+=n*2;
+            n--;
+        }
+        System.out.println(sum );
+
+    }
+    
+    o/p
+    12
+    
+    
+    2) Write a program to print multiplication table of a given number n
+    
+     public static void main(String s[]){
+        int n=2;
+        int counter =1;
+        while(n!=0){
+            System.out.println(n*counter);
+            counter++;
+            if(counter==11)
+                break;
+
+        }
+
+    }
+    
+    o/p
+    2
+    4
+    6
+    8
+    10
+    12
+    14
+    16
+    18
+    20
